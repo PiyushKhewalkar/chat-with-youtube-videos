@@ -1,0 +1,24 @@
+{
+  "name": "youtube-transcipt-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.2",
+    "openai": "^4.98.0",
+    "save": "^2.9.0",
+    "youtube-transcript": "^1.2.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
