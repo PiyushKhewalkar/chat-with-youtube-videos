@@ -3,10 +3,14 @@ import express from "express"
 import sessionRouter from "./routes/session.routes.js"
 import connectToDatabase from "./database/mongodb.js";
 
+import cors from "cors"
+
 // environment variables
 import { PORT } from './config/env.js';
 
 const app = express()
+
+app.use(cors())
 
 app.use(express.json())
 
